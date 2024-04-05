@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form action="/home/fizzbuzz" method="post">
+    <input type="text" name="number" placeholder="Enter a number" />
+    <input type="submit" value="Submit" />
+</form>
+<div>
+    @ViewBag.Output
+</div>
